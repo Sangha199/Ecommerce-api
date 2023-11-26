@@ -1,0 +1,27 @@
+{
+  "name": "ecommerce-api",
+  "version": "1.0.0",
+  "description": "An ecommerce api to keep track of product and quantity",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sangha199/Ecommerce-api.git"
+  },
+  "author": "Sanghrkshak Manwatkar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sangha199/Ecommerce-api/issues"
+  },
+  "homepage": "https://github.com/Sangha199/Ecommerce-api#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "mongoose": "^8.0.1",
+    "nodemon": "^3.0.1"
+  }
+}
